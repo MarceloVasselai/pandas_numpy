@@ -12,6 +12,8 @@ dependencies = [
     "numpy (>=2.2.4,<3.0.0)"
 ]
 
+[tool.poetry]
+packages = [{include = "pandas_numpy", from = "src"}]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
